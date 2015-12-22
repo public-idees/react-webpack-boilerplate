@@ -16,7 +16,4 @@ This app structure was based on [react-hot-boilerplate](https://github.com/gaear
 - Launch the devServer and hot reloading: ```npm run dev```
 - See the result on localhost:3000
 
-## Contact
-guillaume.mousnier@public-idees.com
-
 ## License MIT
