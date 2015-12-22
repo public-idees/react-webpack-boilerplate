@@ -1,10 +1,15 @@
-var path = require('path');
-var express = require('express');
-var webpack = require('webpack');
-var config = require('./webpack.config');
+'use strict';
+const path = require('path');
+const express = require('express');
+const webpack = require('webpack');
+let config = require('./webpack.config');
 
-var app = express();
-var compiler = webpack(config);
+const app = express();
+if (process.argv[2]) {
+    config.entry.push(process.argv[2]);
+}
+const compiler = webpack(config);
+
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
