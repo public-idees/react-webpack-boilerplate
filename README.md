@@ -1,4 +1,5 @@
 # react-webpack-boilerplate
+#### Current version: 1.1.0
 A starter pack to build react applications using webpack, es6 and hot reloading.
 
 This app structure was based on [react-hot-boilerplate](https://github.com/gaearon/react-hot-boilerplate.git) by Dan Abramov.
