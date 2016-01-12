@@ -11,10 +11,20 @@ This app structure was based on [react-hot-boilerplate](https://github.com/gaear
 - Install node.js and npm v3+
 - Install node dependencies: ```npm install```
 
-## Usage
+## Customize your own application
 
-- Add your code in src/
-- Launch the devServer and hot reloading: ```npm run dev```
+- Delete .git and initiate your own.
+- Rename your app folder.
+- Change your personal informations inside package.json.
+
+## Usage for development
+
+- Launch the devServer, redux-devtools and hot reloading: ```npm run dev```
 - See the result on localhost:3000
+
+## Usage for production
+
+- Launch the webpack compilation which creates a minify bundle.js and index.css: ```npm run prod```
+- Get the result inside public/
 
 ## License MIT
